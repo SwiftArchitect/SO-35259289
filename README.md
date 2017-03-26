@@ -10,7 +10,7 @@
 
 ### Stack Overflow Question 35259289
 
-Xcode project & source code related to [Throttled `textViewDidChange`](http://stackoverflow.com/a/35321641/218152) anwser.
+Xcode project & source code related to [Throttled `textViewDidChange`](https://stackoverflow.com/questions/35259289/updating-height-of-self-sizing-table-view-cell-with-text-view/35321641#35321641) answer.
 
 ---
 
@@ -20,6 +20,6 @@ Xcode project & source code related to [Throttled `textViewDidChange`](http://st
 
 **References:**
 
-- SO-35259289 on [Stack Overflow](http://stackoverflow.com/questions/35259289/updating-height-of-self-sizing-table-view-cell-with-text-view)
+- Question [35259289](https://stackoverflow.com/questions/35259289) on Stack Overflow
 - This and other answers posted on [Swift Recipes](http://swiftarchitect.com/recipes/)
 
