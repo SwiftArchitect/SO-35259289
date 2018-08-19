@@ -2,7 +2,7 @@
 //  TableViewController.swift
 //  SO-35259289
 //
-//  Copyright © 2017 Xavier Schott
+//  Copyright © 2017, 2018 Xavier Schott
 //  Permission is hereby granted, free of charge, to any person obtaining a copy
 //  of this software and associated documentation files (the "Software"), to deal
 //  in the Software without restriction, including without limitation the rights
@@ -44,7 +44,7 @@ class TableViewTextViewCell : UITableViewCell, UITextViewDelegate {
         textViewDirtyCount = -1 // prevent any further queuedTextVewDidChange
     }
     
-    func queuedTextVewDidChange() {
+    @objc func queuedTextVewDidChange() {
         if textViewDirtyCount > 0 {
             textViewDirtyCount -= 1
             if 0 == textViewDirtyCount, let refreshCell = refreshCell {
